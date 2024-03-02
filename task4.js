@@ -6,7 +6,7 @@
 spanWidth = document.getElementById('widthValue');
 spanHeigh = document.getElementById('heightValue');
 
-window.onresize = ( event ) => {
+window.onresize = () => {
     spanWidth.textContent = window.innerWidth;
     spanHeigh.textContent = window.innerHeight;
 }
